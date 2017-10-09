@@ -1,10 +1,169 @@
 ﻿body {
+    font-family: 'Mukta', sans-serif;
+    color: #484E5E;
+    padding: 0px;
+}
+
+
+.padding{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.navvy{
+    background-color:#484E5E;
+    color: white;
+    padding: 0px;
+    border-bottom: 0px;
+
+}
+
+nav{
+        padding: 0px;
+        margin: 0px;
+}
+
+nav#navvy.navbar.navbar-static-top{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff6f0;
+    background-color: #484E5E;
+
+}
+
+#navvy a{
+    color:white;
+}
+
+
+.navbar-brand{
+    padding-left: 35px;
+}
+
+
+.italics{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.reviewfont{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 60px;
+    color:white;
+    padding-bottom:0px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+h3{
+    font-size:20px;
+    font-weight:normal;
+    color:white;
+    padding-top:0px;
+    margin:0px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.headingcenter{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.carouseldiv{
+    min-height:200px;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+.carousel-indicators {
+  bottom:-10px;
+}
+
+.carousel-indicators li {
+  background-color: #484E5E;
+}
+
+.carousel-indicators .active {
+     background-color: #484E5E;
+     border-radius: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 200px;
+    padding: 10px;
+    margin-top:50px;
+}
+
+.carousel .item {
+  height: 100px;
+  margin-top: 50px;
+  text-align:center;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+    color: #484E5E;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+.divtable{
+    display:table;
+}
+
+.divtableamenity{
+width: 170px;
+height: 70px;
+display: table;
+margin: 130px auto;
+}
+
+.amenitybuttonbg{
+   background-color: rgba(72, 78, 94, 0.80);
+   text-align:center;
+
+}
+
+.locationheading{
+    font-size: 25px;
+    font-weight: normal;
+    padding-top:70px;
+    width: 200px;
+
+}
+
+.amenityheading{
+    font-size: 25px;
+    font-weight: normal;
+    padding-top:40px;
+    text-align:center;
+
 }
 
 .headerBG {
     background-image: url('TuscanyVilla Images/PoolView3.jpg');
-    height: 350px;
+    height:350px;
     background-size: cover;
+
+
 }
 
 .headerBG2 {
@@ -13,32 +172,149 @@
     background-size: cover;
 }
 
-nav#navvy.navbar.navbar-static-top{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #fff6f0;
-    background-color: #6a1525;
-
-}
 
 #header{
     text-align: center;
+    padding-left: 0px;
 }
 
 #heading{
     text-align: center;
-    background-color: 	#484E5E;
+    background-color: #484E5E;
     color: white;
     min-height: 152px;
-    margin: auto;
+    display:table;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 0px;
+ 
+}
+
+#firstheading{
+    text-align: center;
+    background-color: #484E5E;
+    color: white;
+    min-height: 152px;
+    display:table;
+    margin-bottom: 50px;
+    margin-top: 0px;
+   
 }
 
 #lightcontent{
     background-color:white;
+    margin: 30px;
+}
+
+#whitefont{
+    color:white;
 }
 
 #darkcontent{
-    background-color: 	#484E5E;
+    background-color: #484E5E;
+
+}
+
+.rightbutton {
+    position: absolute;
+    right: 0px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.amenity1bg{
+    background-image: url('TuscanyVilla Images/PoolView1.jpg');
+    min-height: 345px;
+    background-size: cover;
+
+}
+
+.amenity3bg{
+    background-image: url('TuscanyVilla Images/PoolView2.jpg');
+    min-height: 345px;
+    background-size: cover;
+
+}
+
+.centerdivs {
+    margin:auto;
+    width: 90%;
+
+}
+
+.amenity5bg{
+    background-image: url('TuscanyVilla Images/Bedroom1.jpg');
+    min-height: 345px;
+    background-size: cover;
+
+}
+
+.amenity7bg{
+    background-image: url('TuscanyVilla Images/OutsideView1.jpg');
+    min-height: 345px;
+    background-size: cover;
+
+}
+
+.amenity9bg{
+    background-image: url('TuscanyVilla Images/OutsideView2.jpg');
+    min-height: 345px;
+    background-size: cover;
+
+}
+
+.locationimages{
+    height: 250px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+     background-color: #484E5E !important;
+     background-image: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.btn.btn-square {
+  border-radius: 0;
+}
+
+#btn{
+     background-color: #484E5E !important;
+     background-image: none;
+     color: white;
+     font-size: 13px;
+     font-weight:normal;
+}
+
+#whitebutton {
+     background-color: white !important;
+     background-image: none;
+     color: #484E5E;
+     font-size: 13px;
+     font-weight:normal;
+}
+
+
+.footer {
+    background-color: #484E5E;
+    text-align: center;
+    color: white;
+    min-height:  200px;
+}
+
+.container-fluid{
+    padding-right:0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
